@@ -1,0 +1,31 @@
+{
+  "name": "alk-test",
+  "version": "1.0.0",
+  "description": "Polish marketing budget planner with live ROI forecasts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/model.test.js",
+    "test:e2e": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martaczygrinow-afk/alk-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/martaczygrinow-afk/alk-test/issues"
+  },
+  "homepage": "https://github.com/martaczygrinow-afk/alk-test#readme",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.0",
+    "prettier": "^3.9.10",
+    "vite": "^8.3.4"
+  }
+}
